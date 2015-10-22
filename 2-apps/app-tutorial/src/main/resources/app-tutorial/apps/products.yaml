@@ -47,6 +47,7 @@ subApps:
             - name: customActions
               items:
                 - name: markWrong
+                - name: markWrongWithDialog
           availability:
             nodeTypes:
               - mgnl:product
@@ -93,6 +94,11 @@ subApps:
         class: org.defascat.tutorial.MarkWrongActionDefinition
         reason: "Some Error"
         label: "Mark as wrong"
+      markWrongWithDialog:
+        icon: icon-delete
+        class: info.magnolia.ui.framework.action.OpenEditDialogActionDefinition
+        dialogName: "app-tutorial:wrong-data"
+        label: "Mark as wrong with dialog"
     workbench:
       dropConstraintClass: info.magnolia.ui.workbench.tree.drop.AlwaysTrueDropConstraint
       editable: false

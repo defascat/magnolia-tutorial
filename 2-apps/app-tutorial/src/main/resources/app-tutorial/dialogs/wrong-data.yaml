@@ -1,0 +1,28 @@
+form:
+    tabs:
+        item:
+            label: Reject
+            fields:
+                jcrName:
+                    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+                    readOnly: true
+                    label: Name
+                reason:
+                    validators:
+                      - name: atLeast10Symbols
+                        class: org.defascat.tutorial.LengthValidatorDefinition
+                        errorMessage: "Please enter at least 10 symbols"
+                        length: 10
+                    class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+                    label: Reason
+                    name: reason
+                    required: true
+actions:
+    commit:
+        class: org.defascat.tutorial.MarkWrongWithDialogSaveDefinition
+        label: Save
+    cancel:
+        class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+        label: Cancel
+                    
+    

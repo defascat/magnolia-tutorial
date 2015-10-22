@@ -32,7 +32,7 @@ public class MarkWrongAction extends AbstractRepositoryAction<MarkWrongActionDef
     @Override
     protected void onExecute(JcrItemAdapter item) throws RepositoryException {
         Message message = new Message();
-        message.setMessage(reason + "for node '" + item.getJcrItem().getPath() + "'");
+        message.setMessage(reason + " for node '" + item.getJcrItem().getPath() + "'");
         message.setType(MessageType.WARNING);
         
         appContext.sendUserMessage(
