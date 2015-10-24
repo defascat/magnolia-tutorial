@@ -1,0 +1,2 @@
+definitionClass: org.defascat.tutorial.ObsceneTextAreaDefinition
+factoryClass: org.defascat.tutorial.ObsceneTextAreaFactory

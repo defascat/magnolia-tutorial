@@ -4,7 +4,6 @@ import com.vaadin.data.Item;
 import info.magnolia.event.EventBus;
 import info.magnolia.jcr.util.PropertyUtil;
 import info.magnolia.ui.admincentral.dialog.action.SaveConfigDialogAction;
-import info.magnolia.ui.admincentral.dialog.action.SaveConfigDialogActionDefinition;
 import info.magnolia.ui.api.app.AppContext;
 import info.magnolia.ui.api.app.SubAppEventBus;
 import info.magnolia.ui.api.message.Message;
@@ -12,8 +11,6 @@ import info.magnolia.ui.api.message.MessageType;
 import info.magnolia.ui.form.EditorCallback;
 import info.magnolia.ui.form.EditorValidator;
 import info.magnolia.ui.vaadin.integration.jcr.JcrItemAdapter;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.inject.Inject;
 import javax.inject.Named;
 import javax.jcr.Node;
@@ -21,7 +18,7 @@ import javax.jcr.RepositoryException;
 
 public class MarkWrongWithDialogSaveAction extends SaveConfigDialogAction {
     @Inject
-    public MarkWrongWithDialogSaveAction(SaveConfigDialogActionDefinition definition, final Item item, final EditorValidator validator, 
+    public MarkWrongWithDialogSaveAction(MarkWrongWithDialogSaveDefinition definition, final Item item, final EditorValidator validator, 
             final EditorCallback callback, final @Named(SubAppEventBus.NAME) EventBus eventBus, final AppContext appContext) {
         super(definition, item, validator, new EditorCallback() {
 

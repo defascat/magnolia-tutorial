@@ -17,6 +17,10 @@ form:
                     label: Reason
                     name: reason
                     required: true
+                additionalReason:
+                    class: org.defascat.tutorial.ObsceneTextAreaDefinition
+                    label: Additional Description
+                    words: "shit;fuck;slut;whore"
 actions:
     commit:
         class: org.defascat.tutorial.MarkWrongWithDialogSaveDefinition
