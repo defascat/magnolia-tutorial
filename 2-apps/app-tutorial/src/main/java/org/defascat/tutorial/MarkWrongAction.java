@@ -37,11 +37,16 @@ public class MarkWrongAction extends AbstractRepositoryAction<MarkWrongActionDef
         
         appContext.sendUserMessage(
                 PropertyUtil.getString((Node) item.getJcrItem(), "mgnl:createdBy"), message);
+        
+        /*
         appContext.openAlert(MessageStyleTypeEnum.INFO, 
-                "Info", "The item '" + item.getJcrItem().getPath() + "' was marked as wrong", "Got it", new AlertCallback() {
+                "Info", "Alert: The item '" + item.getJcrItem().getPath() + "' was marked as wrong", "Got it", new AlertCallback() {
             @Override
             public void onOk() {
             }
         });
+                */
+        
+        // appContext.openNotification(MessageStyleTypeEnum.INFO, true, "Notification: The item '" + item.getJcrItem().getPath() + "' was marked as wrong");
     }
 }
