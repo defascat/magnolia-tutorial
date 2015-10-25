@@ -1,0 +1,28 @@
+dialog: app-tutorial:pages/homePageProperties
+class: org.defascat.tutorial.HomePageDefinition
+renderType: site
+visible: true
+type: home
+areas:
+  header:
+    type: single
+    availableComponents:
+      textImage:
+        id: mte:components/textImage
+  main:
+    type: list
+    availableComponents:
+      textImage:
+        id: mte:components/textImage
+      teaserInternal:
+        id: mte:components/teaserInternal
+#      productList:
+#        id: app-tutorial:components/productList
+
+  footer:
+    type: single
+    availableComponents:
+      textImage:
+        id: mte:components/textImage
+title: "Demo Home Page"
+templateScript: /app-tutorial/templates/pages/home.ftl

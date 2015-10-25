@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="cars" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>6254df84-93b1-4431-b6dd-53b7b601c03d</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:createdBy" sv:type="String">
+    <sv:value>admin</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:created" sv:type="Date">
+    <sv:value>2015-10-13T14:58:10.047+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:createdBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+    <sv:value>2015-10-13T14:58:20.392+02:00</sv:value>
+  </sv:property>
+  <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+    <sv:value>superuser</sv:value>
+  </sv:property>
+  <sv:node sv:name="classics">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>45aa1b8d-0cd3-4829-9f17-02b4603910c1</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2015-09-25T00:54:38.571+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2015-10-13T14:58:25.068+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="Fiat-Cinquecento">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ed450660-c375-443b-84bb-95a11846ccf0</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;The Fiat 500 (Cinquecento) was a city car produced by the Italian manufacturer Fiat between 1957 and 1975.&lt;br /&gt;
+Launched as the Nuova (new) 500 in July 1957, it was a cheap and practical town car. Measuring only 2.97 metres (9 feet 9 inches) long, and originally powered by an appropriately sized 479 cc two-cylinder, air-cooled engine, the 500 redefined the term &amp;quot;small car&amp;quot; and is considered one of the first city cars.&lt;/p&gt;
+
+&lt;p&gt;Sports models were famously produced by Abarth, as well as by Giannini. An Austrian variant, produced by Steyr-Daimler-Puch, the 1957&amp;ndash;1973 Steyr-Puch 500, had a motorcycle-derived Puch boxer twin motor, a sports model of which was the 1965&amp;ndash;1969 Steyr-Puch 650 TR2.&lt;/p&gt;
+
+&lt;p&gt;Production of the 500 ended in 1975, although its replacement, the Fiat 126, was launched two years earlier.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:1bbae8c4-26e3-4e2e-83b1-7658565e6e09</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-07T15:58:00.186+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-13T14:58:25.068+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="photoCredit" sv:type="String">
+        <sv:value>werwer</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Fiat Cinquecento</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Riley-Brooklands-1930">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ba03c082-a68d-46c0-afe8-84d3fdcc6bd2</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;Riley was a British motorcar and bicycle manufacturer from 1890. Later it was merged into British Leyland.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Th 1930 Riley Brooklands has won Tourist Trophy in 1932 and participated on Le Mans race 1933.&lt;br /&gt;
+Its 1087 cc, twin cam, inline-4 engine was tuned with a high performance water pump, high compression pistons, a racing camshaft, balanced exhaust manifold and uprated, twin carburettors. This pushed the engine to produce what was then an astounding 50 bhp.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:57cc5aa2-4d72-4b05-be2a-b02856e9f91c</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-07T16:13:24.272+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-13T14:58:25.068+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Riley Brooklands 1930</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Pontiac-Chieftain-1952">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>bc84be8c-d9d5-4d2f-987b-e2cc5302aee0</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;The Pontiac Chieftain is an automobile that was produced by the Pontiac from 1949 to 1958.&amp;nbsp;&lt;br /&gt;
+The Chieftain was initially introduced with four models: Sedan, Sedan Coupe, Business Coupe and Deluxe Convertible Coupe. In 1950, a Catalina Coupe was added to the range while a station wagon was added in 1952, with the demise of the top of the line Streamliner wagon.&lt;/p&gt;
+
+&lt;p&gt;Some of the more interesting optional items available for the first generation Chieftain included a radio with seven vacuum tubes, tissue dispenser, under seat heaters, and a Remington Auto-Home shaver.&amp;nbsp;&lt;br /&gt;
+In the May of 1952 issue of Popular Mechanics, the Chieftain was rated 14.9 seconds for a 0-60 mph time.&amp;nbsp;&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:6df7ee03-5b11-46d4-a15f-579bcffb50b9</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-07T16:21:03.183+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-13T14:58:25.068+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Pontiac Chieftain 1952</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Continental-Mark-II">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>dfeb5ad9-d06c-4e76-85e1-f30ef97c8bca</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;Continental was a brand from Ford - they wanted a superior and standalone up-market brand &amp;ndash; aside from Lincoln &amp;ndash; to compete with General Motors&amp;#39; Cadillac, Packard, and Chrysler.&lt;/p&gt;
+
+&lt;p&gt;The Mark II was not intended to be the largest or most powerful automobile; rather, the most luxurious and elegant American car available, designed to recapture the spirit of the great classics of the prewar period&amp;mdash;with prices to match. The Mark II&amp;#39;s inspiration was the celebrated V12-powered Lincoln Continental of the 1940s, among the most notable cars of that War-interrupted decade.&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:5f29b11a-1c37-4f3e-a0e1-ef033b84998c</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-07T16:57:28.077+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-13T14:58:25.068+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Continental Mark II</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="1927-Hudson">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>3e171627-43b4-47f8-bb82-dccbfac2c07f</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;The Hudson Motor Car Company made Hudson and other brand automobiles in Detroit, Michigan, from 1909 to 1954. In 1929, it was the third largest auto manufacturer, trailing only Ford and Chevrolet.&lt;br /&gt;
+The secret of the Hudson&amp;#39;s success was its advanced, four-bearing, 4.7-litre engine, which featured eight counterweights, large valves, a relatively high compression ratio and efficient porting. With 76bhp on tap, the Super Six possessed a performance demonstrably superior to that of many six-cylinder rivals costing far more.&amp;nbsp;&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:8290ac0e-d9ab-4349-8ff9-100dc5d73eb8</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-07T16:52:03.560+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-13T14:58:25.068+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>1927 Hudson</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="007">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>8ae34efb-52bd-4b94-a484-2677be490c9b</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:createdBy" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:created" sv:type="Date">
+      <sv:value>2015-09-25T00:57:12.674+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:createdBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+      <sv:value>2015-10-16T14:36:11.478+02:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+      <sv:value>superuser</sv:value>
+    </sv:property>
+    <sv:node sv:name="Aston-Martin-DB5">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ce39509e-e1d5-4cdd-b254-125948e2aeec</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;&lt;strong&gt;Movie:&lt;/strong&gt;&amp;nbsp;Goldfinger, GoldenEye, Casino Royale and Skyfall&lt;br /&gt;
+&lt;strong&gt;Year:&lt;/strong&gt;&amp;nbsp;1964, 1995, 2006 and 2012&lt;/p&gt;
+
+&lt;p&gt;The Aston Martin DB5 is one of the most famous cars in the world thanks to Oscar-winning special effects expert John Stears, who created the deadly silver-birch DB5 for use by James Bond in Goldfinger (1964). Although Ian Fleming had placed Bond in a DB Mark III in the novel, the DB5 was the company&amp;#39;s latest model when the film was being made.&lt;/p&gt;
+
+&lt;p&gt;A different Aston Martin DB5 (registration BMT 214A) was used in the 1995 Bond film, GoldenEye, in which three different DB5s were used for filming. The BMT 214A also returned in Tomorrow Never Dies (1997) and was set to make a cameo appearance in the Scotland-set scenes in The World Is Not Enough (1999), but these were cut in the final edit. Yet another DB5 appeared in Casino Royale (2006), this one with Bahamian number plates and left-hand drive (where the previous British versions had been right-hand drive).&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href="https://en.wikipedia.org/wiki/Aston_Martin_DB5"&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:4cd02639-167d-405a-923f-607aa20d0bc0</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-25T01:10:04.808+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-16T14:36:11.478+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Aston Martin DB5</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Sunbeam-Alpine">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7ff3597f-bd68-4293-969f-9a9d13619ea6</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;&lt;strong&gt;Movie:&lt;/strong&gt;&amp;nbsp;Dr. No&lt;br /&gt;
+&lt;strong&gt;Year:&amp;nbsp;&lt;/strong&gt;1962&lt;/p&gt;
+
+&lt;p&gt;The Sunbeam Alpine is a sporty two-seat open car produced by Sunbeam from 1953 to 1955, and then 1959 to 1968. The name was then used on a two-door fastback from 1969 to 1975. The original Alpine was launched in 1953 as the first vehicle from Sunbeam-Talbot to bear the Sunbeam name alone since the 1935 takeover of Sunbeam and Talbot by the Rootes Group.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;A metallic blue 1953 Sunbeam Alpine Mk.1 is driven by Grace Kelly in To Catch a Thief (1955) with Cary Grant.&lt;/li&gt;
+	&lt;li&gt;A lake blue &amp;quot;Series II&amp;quot; Alpine roadster is amongst the first on-screen &amp;quot;Bond cars&amp;quot; when it is rented and driven by James Bond in Dr. No of 1962. It was reportedly borrowed from a local resident, as the only suitable sports car available on the island used for filming.&lt;/li&gt;
+	&lt;li&gt;A Sunbeam Alpine is driven by Michael Caine in the 1967 film Gambit. The film also starred Shirley MacLaine and Herbert Lom.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Source: &lt;a href="https://en.wikipedia.org/wiki/Sunbeam_Alpine"&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:061b70de-07fb-4fa0-be60-ab82e4b43c70</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-25T01:10:40.492+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-16T14:36:11.478+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Sunbeam Alpine</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Aston-Martin-V8">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>40938f8b-37d6-4bc8-80eb-1e06d3c46557</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;&lt;strong&gt;Movie:&lt;/strong&gt;&amp;nbsp;The Living Daylights&lt;br /&gt;
+&lt;strong&gt;Year:&lt;/strong&gt;&amp;nbsp;1987&lt;/p&gt;
+
+&lt;p&gt;At the beginning of the film, the car is a V8 Volante (convertible). Later, the car is fitted with a hardtop (&amp;quot;winterised&amp;quot;) at Q Branch.&lt;/p&gt;
+
+&lt;p&gt;The alterations and gadgets featured were:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Police band radio&lt;/li&gt;
+	&lt;li&gt;Tire Spikes&lt;/li&gt;
+	&lt;li&gt;Jet engine behind rear number plate&lt;/li&gt;
+	&lt;li&gt;Retractable outriggers&lt;/li&gt;
+	&lt;li&gt;Heat-seeking missiles behind fog lights&lt;/li&gt;
+	&lt;li&gt;Lasers in front wheel hubcaps&lt;/li&gt;
+	&lt;li&gt;Bulletproof windows&lt;/li&gt;
+	&lt;li&gt;Fireproof body&lt;/li&gt;
+	&lt;li&gt;Self-destruct system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Source: &lt;a href="https://en.wikipedia.org/wiki/Aston_Martin_V8_Vantage_%281977%29"&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:129b1675-c383-46ae-97a8-b1ba18c0ab9d</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-25T01:11:08.631+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-16T14:36:11.478+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Aston Martin V8</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Lotus-Esprit-S1">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:product</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c9342333-4b85-4ebb-b978-478742ecee96</sv:value>
+      </sv:property>
+      <sv:property sv:name="description" sv:type="String">
+        <sv:value>&lt;p&gt;&lt;strong&gt;Movie:&lt;/strong&gt;&amp;nbsp;The Spy Who Loved Me&lt;br /&gt;
+&lt;strong&gt;Year:&lt;/strong&gt;&amp;nbsp;1977&lt;/p&gt;
+
+&lt;p&gt;Delivered to Bond by Q in Sardinia, this Lotus is capable of transforming into a submarine. In this mode, it is equipped with anti-aircraft missiles.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Source &lt;a href="https://en.wikipedia.org/wiki/List_of_James_Bond_vehicles"&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Lotus Esprit is a sports car that was built by Lotus in the United Kingdom between 1976 and 2004. The silver Italdesign concept that eventually became the Esprit was among the first of designer Giorgetto Giugiaro&amp;#39;s polygonal &amp;quot;folded paper&amp;quot; designs.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The Esprit was powered by the Lotus 907 4-cylinder engine, as previously used in the Jensen Healey. This engine displaced 2.0 L, produced 160 bhp (119 kW; 162 PS) in European trim 140 bhp (104 kW; 142 PS) in US/Federal trim, and was mounted longitudinally behind the passengers, as in its predecessor.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href="https://en.wikipedia.org/wiki/Lotus_Esprit#S1_.281976.29"&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+</sv:value>
+      </sv:property>
+      <sv:property sv:name="image" sv:type="String">
+        <sv:value>jcr:e675a1cf-2569-40ab-b105-4f9870a7493a</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:created" sv:type="Date">
+        <sv:value>2015-09-25T01:11:34.637+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:createdBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModified" sv:type="Date">
+        <sv:value>2015-10-16T14:36:11.478+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="mgnl:lastModifiedBy" sv:type="String">
+        <sv:value>superuser</sv:value>
+      </sv:property>
+      <sv:property sv:name="title" sv:type="String">
+        <sv:value>Lotus Esprit S1</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
