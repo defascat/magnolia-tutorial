@@ -1,0 +1,4 @@
+title: "Car"
+templateScript: /app-tutorial/templates/components/product.ftl
+dialog: app-tutorial:components/product
+renderType: freemarker

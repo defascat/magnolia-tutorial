@@ -1,0 +1,19 @@
+form:
+    label: "Car configuration"
+    tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: data
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: products
+          targetTreeRootPath: /cars
+          i18n: true
+          label: "Car"
+          appName: products
+          
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

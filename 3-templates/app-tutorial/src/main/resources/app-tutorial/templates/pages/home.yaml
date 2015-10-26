@@ -5,10 +5,8 @@ visible: true
 type: home
 areas:
   header:
-    type: single
-    availableComponents:
-      textImage:
-        id: mte:components/textImage
+    templateScript: /app-tutorial/templates/areas/header.ftl
+    dialog: app-tutorial:areas/header
   main:
     type: list
     availableComponents:
@@ -16,9 +14,8 @@ areas:
         id: mte:components/textImage
       teaserInternal:
         id: mte:components/teaserInternal
-#      productList:
-#        id: app-tutorial:components/productList
-
+      car:
+        id: app-tutorial:components/product
   footer:
     type: single
     availableComponents:

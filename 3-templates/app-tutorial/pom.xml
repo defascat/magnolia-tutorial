@@ -71,7 +71,11 @@
           <artifactId>magnolia-pages-app</artifactId>
           <version>${magnoliaVersion}</version>
         </dependency>
-
+        <dependency>
+          <groupId>info.magnolia</groupId>
+          <artifactId>magnolia-templating</artifactId>
+          <version>${magnoliaVersion}</version>
+        </dependency>
     </dependencies>
 
     <repositories>
