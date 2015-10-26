@@ -18,5 +18,7 @@
 [@cms.area name="footer"/]
 </div>
 
+[#include "/app-tutorial/templates/pages/freemarker.ftl"]
+
 </body>
 </html>
