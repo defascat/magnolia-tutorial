@@ -8,6 +8,13 @@
   <versionHandler>org.defascat.magnolia.setup.DemoModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
+  <components>
+    <id>main</id>
+    <component>
+      <type>org.defascat.magnolia.NumberProvider</type>
+      <implementation>org.defascat.magnolia.Number42Provider</implementation>
+    </component>
+  </components>
   <dependencies>
     <dependency>
       <name>core</name>
@@ -25,4 +32,13 @@
     </dependency>
   -->
   </dependencies>
+  <repositories>
+    <repository>
+      <name>magnolia</name>
+      <workspaces>
+        <workspace>demodata</workspace>
+      </workspaces>
+      <nodeTypeFile>/mgnl-nodetypes/magnolia-module-demodata-nodetypes.xml</nodeTypeFile>
+    </repository>
+  </repositories>
 </module>
