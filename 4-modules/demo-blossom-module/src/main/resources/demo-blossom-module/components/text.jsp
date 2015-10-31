@@ -9,4 +9,7 @@
 <%@ taglib uri="blossom-taglib" prefix="blossom" %>
 
 <h1>${content.heading}</h1>
+<c:if test="${not empty content.image}">
+    <img style="float: right;margin: 10px;" src="${damfn.getAssetLink(content.image)}"/>
+</c:if>
 <p>${cmsfn:decode(content).body}</p>

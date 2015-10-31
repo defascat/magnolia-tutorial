@@ -1,5 +1,6 @@
 package org.defascat.magnolia;
 
+import info.magnolia.dam.app.ui.config.DamConfig;
 import info.magnolia.module.blossom.annotation.Area;
 import static info.magnolia.module.blossom.annotation.AreaType.LIST;
 import info.magnolia.module.blossom.annotation.AvailableComponentClasses;
@@ -18,7 +19,7 @@ public class BlossomDemoTemplate {
     @TabFactory("Content")
     public void demoPageProperties(UiConfig cfg, TabBuilder tab) {
         tab.fields(
-                cfg.fields.text("headline").label("Headline").description("The text to use as a headline")
+                cfg.fields.text("headline").label("Headline").description("The text to use as a headline") 
         );
     }
  
